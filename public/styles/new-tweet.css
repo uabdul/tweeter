@@ -1,0 +1,40 @@
+form {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section.new-tweet {
+    background-color: #EEEEEE;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #A9A9A9;
+}
+
+.new-tweet h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #000000;
+}
+
+textarea {
+    overflow: auto;
+    width: 100%;
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+span.counter {
+    float: right;
+}
+
+input[type="submit"] {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
