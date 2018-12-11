@@ -31,6 +31,77 @@ main.container {
     padding-bottom: 1em;
 }
 
+article.tweet {
+    background-color: #FFFFFF;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #CCCCCC;
+}
+
+article.tweet header {
+  width: 100%;
+  height: 100px;
+  background-color: #F3F3F3;
+  border-bottom-color: #EEEEEE;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+article.tweet img.avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #A9A9A9;
+  float: left;
+  margin: 10px;
+}
+
+article.tweet h2.username {
+  float: left;
+  margin: 0.3rem;
+  color: #647d83;
+}
+
+article.tweet p.handle {
+  float: right;
+  margin-right: 0.2rem;
+  margin-top: 0.6rem;
+  color: #A0A0A0;
+}
+
+article.tweet body {
+  width: 100%;
+}
+
+article.tweet p.tweet-text {
+  width: 100%;
+  padding: 0.5em;
+  color: #000000;
+}
+
+article.tweet footer {
+  padding: 0px;
+  background-color: #FFFFFF;
+  border-top-color: #EEEEEE;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+p.timestamp {
+  padding: 0.3rem;
+  margin: 0px;
+}
+
+
+
+
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */

@@ -12,7 +12,7 @@ section.new-tweet {
     border-color: #A9A9A9;
 }
 
-.new-tweet h2 {
+section.new-tweet h2 {
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 10px;
@@ -21,7 +21,7 @@ section.new-tweet {
     border-bottom-color: #000000;
 }
 
-textarea {
+section.new-tweet textarea {
     overflow: auto;
     width: 100%;
     display: block;
@@ -30,11 +30,12 @@ textarea {
 
 }
 
-span.counter {
+section.new-tweet span.counter {
     float: right;
+    color: #000000;
 }
 
-input[type="submit"] {
+section.new-tweet input[type="submit"] {
     margin-bottom: 10px;
     margin-top: 5px;
 }
