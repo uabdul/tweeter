@@ -42,6 +42,10 @@ article.tweet {
     border-color: #CCCCCC;
 }
 
+article.tweet:hover {
+    border-color: #000000;
+}
+
 article.tweet header {
   width: 100%;
   height: 100px;
@@ -49,6 +53,10 @@ article.tweet header {
   border-bottom-color: #EEEEEE;
   border-bottom-style: solid;
   border-bottom-width: 1px;
+}
+
+article.tweet:hover header {
+  background-color: #EEEEEE;
 }
 
 article.tweet img.avatar {
@@ -68,12 +76,23 @@ article.tweet h2.username {
   color: #647d83;
 }
 
+article.tweet:hover h2.username {
+  float: left;
+  margin: 0.3rem;
+  color: #234650;
+}
+
 article.tweet p.handle {
   float: right;
   margin-right: 0.2rem;
   margin-top: 0.6rem;
   color: #A0A0A0;
 }
+
+article.tweet:hover p.handle {
+  color: #7D7D7D;
+}
+
 
 article.tweet body {
   width: 100%;
@@ -91,11 +110,25 @@ article.tweet footer {
   border-top-color: #EEEEEE;
   border-top-style: solid;
   border-top-width: 1px;
+  overflow: hidden;
 }
 
-p.timestamp {
+article.tweet footer p.timestamp {
   padding: 0.3rem;
   margin: 0px;
+  float: left;
+}
+
+article.tweet footer .icons {
+  padding: 0.3rem;
+  float: right;
+  display: none;
+}
+
+article.tweet:hover footer .icons {
+  padding: 0.3rem;
+  float: right;
+  display: inline;
 }
 
 
