@@ -96,6 +96,7 @@ article.tweet:hover p.handle {
 
 article.tweet body {
   width: 100%;
+  background-color: #FFFFFF;
 }
 
 article.tweet p.tweet-text {
