@@ -1,4 +1,4 @@
-
+//Helper function that checks current character count and updates counter
 $(document).ready(function() {
   $(".new-tweet textarea").on("input", function(e) {
     var counter = $(this).siblings(".counter");
