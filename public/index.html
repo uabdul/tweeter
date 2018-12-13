@@ -31,6 +31,7 @@
 
     <!--Character Counter JS -->
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+
   </head>
 
   <body>
@@ -39,17 +40,19 @@
     <nav id="nav-bar">
       <img class="logo" src="/images/bird.png">
       <span class="header">Tweeter</span>
+      <button class="compose">COMPOSE</button>
     </nav>
 
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
-          <form action="/tweets/" method="POST">
-            <textarea name="text" placeholder="What are you humming about?"></textarea>
-            <input type="submit" value="Tweet">
-            <span class="counter">140</span>
+        <form id="post-tweet" action="/tweets">
+          <textarea name="text" placeholder="What are you humming about?"></textarea>
+          <input type="submit" value="Tweet">
+          <span class="counter">140</span>
         </form>
+        <div class="alert">&times;&nbsp;&nbsp;&nbsp;This is a test alert box.</div>
       </section>
       <section id="tweets-container">
         <article class="tweet">

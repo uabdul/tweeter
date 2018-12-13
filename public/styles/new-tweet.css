@@ -10,6 +10,7 @@ section.new-tweet {
     border-style: solid;
     border-width: 1px;
     border-color: #A9A9A9;
+    display: none;
 }
 
 section.new-tweet h2 {
@@ -38,4 +39,11 @@ section.new-tweet span.counter {
 section.new-tweet input[type="submit"] {
     margin-bottom: 10px;
     margin-top: 5px;
+}
+
+.new-tweet .alert {
+    font-weight: 600;
+    background-color: red;
+    color: #FFF;
+    display: none;
 }

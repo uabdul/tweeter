@@ -7,6 +7,7 @@ nav {
   position: fixed;
   top: 0px;
   color: #e8fdff;
+  z-index: 1;
 }
 
 #nav-bar .logo {
@@ -20,4 +21,19 @@ nav {
   line-height: 6rem;
   padding-left: 10px;
   float: left;
+}
+
+#nav-bar button.compose {
+    float: right;
+    margin: 20px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #00a087;
+    background-color: #000000;
+}
+
+#nav-bar button.compose:hover {
+    color: #000;
+    background-color: #FFF;
 }
