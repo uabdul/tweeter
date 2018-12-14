@@ -4,6 +4,9 @@ Tweeter is a simple, single-page Twitter clone. This project uses HTML, CSS, Jav
 
 ## Final Product
 
+!["Screenshot of tweets"](https://github.com/uabdul/tweeter/blob/master/docs/tweet-stream.png?raw=true)
+!["Screenshot of 'Compose Tweet' box"](https://github.com/uabdul/tweeter/blob/master/docs/compose-tweet.png?raw=true)
+
 The final product is a single-page application that allows users to view a stream of tweets that are saved in the database and post new tweets using the "Compose" button.
 
 ## Dependencies
